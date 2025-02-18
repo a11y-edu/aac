@@ -255,7 +255,7 @@
                 android:layout_height="200dp" />
         </LinearLayout>
 
-        <com.a11yEdu.a11y.filters.Filters
+        <com.a11y.aac.filters.Filters
             android:id="@+id/filters"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

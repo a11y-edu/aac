@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.a11yEdu.a11y"
+    namespace = "com.a11y.aac"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.a11yEdu.a11y"
+        applicationId = "com.a11y.aac"
         minSdk = 31
         targetSdk = 34
         versionCode = 4

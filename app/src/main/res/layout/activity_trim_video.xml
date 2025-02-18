@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".TrimVideoActivity">
 
-    <com.a11yEdu.a11y.VideoTrimmer.VideoTrimmer
+    <com.a11y.aac.VideoTrimmer.VideoTrimmer
         android:id="@+id/videoTrimmer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

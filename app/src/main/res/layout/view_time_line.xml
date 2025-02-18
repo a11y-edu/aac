@@ -139,19 +139,19 @@
                     android:secondaryProgress="0"
                     android:thumb="@drawable/slider" />
 
-                <com.a11yEdu.a11y.VideoTrimmer.view.ProgressBarView
+                <com.a11y.aac.VideoTrimmer.view.ProgressBarView
                     android:id="@+id/timeVideoView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/handlerTop" />
 
-                <com.a11yEdu.a11y.VideoTrimmer.view.TimeLineView
+                <com.a11y.aac.VideoTrimmer.view.TimeLineView
                     android:id="@+id/timeLineView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/timeVideoView" />
 
-                <com.a11yEdu.a11y.VideoTrimmer.view.RangeSeekBarView
+                <com.a11y.aac.VideoTrimmer.view.RangeSeekBarView
                     android:id="@+id/timeLineBar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

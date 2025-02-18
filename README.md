@@ -258,7 +258,7 @@ To manually load or restore previous data into the A11y app, follow these steps:
 
 2. **Navigate to the App Directory:**  
    - On your Android device, open a file manager and go to:  
-     **`Android > data > com.a11yEdu.a11y > Documents`**  
+     **`Android > data > com.a11y.aac > Documents`**  
 
 3. **Replace Files and Folders:**  
    - Delete the existing contents in the `Documents` folder.  

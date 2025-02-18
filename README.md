@@ -88,7 +88,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
 #### 📥 Clone the Repository  
 1. Open a terminal and run the following command to clone the project:  
    ```bash
-   git clone https://github.com/tanujn45/a11y.git
+   git clone https://github.com/a11y-edu/A11y.git
    ```
 2. Open **Android Studio**.  
 3. Select **File > Open** and navigate to the cloned project directory.  
@@ -120,7 +120,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
    └── 📂 src  
        ├── 📂 main  
        │   ├── AndroidManifest.xml
-       │   ├── 📂 java/com/tanujn45/a11y  
+       │   ├── 📂 java/com/a11yEdu/a11y  
        │   │   ├── MainActivity.java  
        │   │   └── OtherFiles.java // Just for Representation
        │   └── 📂 res  

@@ -12,8 +12,8 @@ android {
     defaultConfig {
         applicationId = "com.a11yEdu.a11y"
         minSdk = 31
-        targetSdk = 33
-        versionCode = 3
+        targetSdk = 34
+        versionCode = 4
         versionName = "1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

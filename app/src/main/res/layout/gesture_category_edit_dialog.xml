@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/margin"
+    android:paddingVertical="@dimen/margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Enter name of the gesture category"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/gestureCategoryNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20sp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="Enter file name!"
+        android:ems="10"
+        android:hint="Enter gesture category name..."
+        android:inputType="text"
+        android:labelFor="@id/gestureCategoryNameEditText"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Enter speakable text"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/speakableTextEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20sp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="Enter file name!"
+        android:ems="10"
+        android:hint="Enter speakable text..."
+        android:inputType="text"
+        android:labelFor="@id/speakableTextEditText"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/enableRecognitionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingEnd="20dp"
+            android:text="Ignore gesture category"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/ignoreGestureCategorySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            app:switchPadding="10dp"
+            app:thumbTint="@color/white"
+            app:trackTint="@color/switch_color" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/theme2"
+            android:onClick="cancelButtonClicked"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/theme"
+            android:onClick="saveButtonClicked"
+            android:text="Save" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF0000"
+        android:text="Delete Gesture" />
+
+</LinearLayout>

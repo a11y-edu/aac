@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/margin">
+
+        <LinearLayout
+            android:id="@+id/homeWelcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="20dp"
+                android:paddingStart="0dp"
+                android:background="@color/transparent"
+                android:onClick="backButtonClicked"
+                android:src="@drawable/back" />
+
+            <TextView
+                style="@style/HeaderFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Help" />
+        </LinearLayout>
+
+        <!-- Bulleted Help Section -->
+        <TextView
+            android:id="@+id/helpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autoLink="email"
+            android:linksClickable="true"
+            android:textColor="@color/white"
+            android:textIsSelectable="true"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeWelcomeText"
+            android:text="• Connection Errors: If you encounter issues while recording data, running the model, or connecting to the sensor, restart the application and attempt to reconnect. If the problem persists, contact the developer.\n\n• Model Requirements: To execute a model, ensure you have gestures defined beyond the default \'Rest\' gesture.\n\n• The \'Rest\' gesture represents the hand's resting state and is essential for accurate modeling.\n\n• Deleting the App: If you delete the app, all data will also be permanently deleted.\n\nFor further assistance, email us at tpn5218@psu.edu." />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

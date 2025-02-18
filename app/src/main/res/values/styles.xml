@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">15dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">17sp</item>
+        <item name="backgroundTint">@color/theme</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">15dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">17sp</item>
+        <item name="backgroundTint">@color/theme2</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="spinnerStyleWhite">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">15dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="borderWidth">1dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="backgroundTint">@color/grey</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="ImageButtonStyle">
+        <item name="android:layout_width">30sp</item>
+        <item name="android:layout_height">30sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="Tooltip" parent="Widget.MaterialComponents.Tooltip">
+        <item name="android:textAppearance">@style/TextAppearance.Tooltip</item>
+        <item name="backgroundTint">@color/theme</item>
+    </style>
+
+    <style name="TextAppearance.Tooltip" parent="TextAppearance.MaterialComponents.Tooltip">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeaderFont">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubHeaderFont">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="MyEditTextTheme">
+        <item name="colorControlNormal">#C4C4C4</item>
+        <item name="colorControlActivated">@color/theme</item>
+        <item name="colorControlHighlight">@color/theme</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">10dp</item>
+    </style>
+</resources>

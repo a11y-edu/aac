@@ -1,14 +1,14 @@
-**Project Documentation for A11y**
+**Project Documentation for AAC**
 --
 
 ### 📘 Overview  
 
-- **Project Name:** A11y  
+- **Project Name:** AAC 
 - **Purpose:** Gesture Recognition using IMU sensor data to enhance accessibility for users.  
 - **Tech Stack:** Java, XML, Android SDK  
 
 #### 📝 Description  
-A11y is an Android application designed to recognize user gestures through IMU (Inertial Measurement Unit) sensor data. It utilizes machine learning models, Bluetooth Low Energy (BLE) for sensor communication, and provides feedback through visual charts and logs.  
+AAC is an Android application designed to recognize user gestures through IMU (Inertial Measurement Unit) sensor data. It utilizes machine learning models, Bluetooth Low Energy (BLE) for sensor communication, and provides feedback through visual charts and logs.  
 
 #### 🚀 Key Features  
 - Real-time gesture detection from wearable sensors  
@@ -26,7 +26,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
 
 ### 📦 Dependencies  
 
-  The **A11y** app uses several third-party libraries and AndroidX components to ensure functionality, performance, and compatibility. Below is a list of the dependencies and their purposes:
+  The **AAC** app uses several third-party libraries and AndroidX components to ensure functionality, performance, and compatibility. Below is a list of the dependencies and their purposes:
 
 
 
@@ -88,7 +88,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
 #### 📥 Clone the Repository  
 1. Open a terminal and run the following command to clone the project:  
    ```bash
-   git clone https://github.com/a11y-edu/A11y.git
+   git clone https://github.com/a11y-edu/aac.git
    ```
 2. Open **Android Studio**.  
 3. Select **File > Open** and navigate to the cloned project directory.  
@@ -110,7 +110,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
 
 ### Overview
 
-- **/app/src/main/java/com/a11y/** – Java source files and modules 
+- **/app/src/main/java/com/a11y/aac** – Java source files and modules 
 - **/app/src/main/res/layout/** – XML layout files  
 - **/libs/** – External JAR/AAR libraries  
 - **/app/src/AndroidManifest.xml** - Configuration for the App
@@ -120,7 +120,7 @@ A11y is an Android application designed to recognize user gestures through IMU (
    └── 📂 src  
        ├── 📂 main  
        │   ├── AndroidManifest.xml
-       │   ├── 📂 java/com/a11yEdu/a11y  
+       │   ├── 📂 java/com/a11y/aac  
        │   │   ├── MainActivity.java  
        │   │   └── OtherFiles.java // Just for Representation
        │   └── 📂 res  
@@ -251,9 +251,9 @@ A11y is an Android application designed to recognize user gestures through IMU (
 
 ### 🛠️ How to Load Data (Side-Loading)  
 
-To manually load or restore previous data into the A11y app, follow these steps:  
+To manually load or restore previous data into the AAC app, follow these steps:  
 
-1. **Close the A11y App:**  
+1. **Close the AAC App:**  
    - **Ensure the app is completely closed before proceeding.** Keeping the app open during this process may cause data corruption or errors.  
 
 2. **Navigate to the App Directory:**  
@@ -265,7 +265,7 @@ To manually load or restore previous data into the A11y app, follow these steps:
    - Copy and paste your backed-up files and folders into the `Documents` directory.  
 
 4. **Restart the App:**  
-   - Open the A11y app to view the side-loaded data, including raw videos, trimmed data, models, and gesture instances.  
+   - Open the AAC app to view the side-loaded data, including raw videos, trimmed data, models, and gesture instances.  
 
 ⚠️ **Note:** Ensure the app remains closed during the entire transfer process to avoid issues.  
 

@@ -72,15 +72,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mPreviouslyConnectedListView = findViewById(R.id.previouslyConnectedListView);
         disconnectButton = findViewById(R.id.disconnectButton);
 
-        // bypass for testing
-         Intent intent = new Intent(this, HomeActivity.class);
-         startActivity(intent);
-         finish();
-         return;
-
-//        while (!permissionsGranted) {
-//            permissionsGranted = requestNeededPermissions();
-//        }
+        // Bypass to home activity
+        // NOTE: This activity used to be the main activity, but it was replaced by HomeActivity
+        // So this code is here to redirect the user to the HomeActivity
+        // The user will never see this activity
+        // All the code in this activity is not used
+        // The code is here just in case we need to use it in the future
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     @Override

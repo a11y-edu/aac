@@ -54,4 +54,6 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
             itemView.setOnClickListener(v -> listener.onItemClick(v, getAdapterPosition()));
         }
     }
+
+    // Lots of love to the new developers! Keep coding! -Tanuj
 }
